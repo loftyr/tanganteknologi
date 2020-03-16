@@ -1,0 +1,434 @@
+/* Page Loader */
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('../../files/app/loader-1.gif') center no-repeat #fff;
+}
+
+.hidden.menu {
+    display: none;
+}
+
+.masthead.segment {
+    min-height: 700px;
+    padding: 1em 0em;
+}
+
+.masthead .logo.item img {
+    margin-right: 1em;
+}
+
+.masthead .ui.menu .ui.button {
+    margin-left: 0.5em;
+}
+
+.masthead h1.ui.header {
+    margin-top: 3em;
+    margin-bottom: 0em;
+    font-size: 4em;
+    font-weight: normal;
+}
+
+.masthead h2 {
+    font-size: 1.7em;
+    font-weight: normal;
+}
+
+.ui.vertical.stripe {
+    padding: 8em 0em;
+}
+
+.ui.vertical.stripe h3 {
+    font-size: 2em;
+}
+
+.ui.vertical.stripe .button+h3,
+.ui.vertical.stripe p+h3 {
+    margin-top: 3em;
+}
+
+.ui.vertical.stripe .floated.image {
+    clear: both;
+}
+
+.ui.vertical.stripe p {
+    font-size: 1.33em;
+}
+
+.ui.vertical.stripe .horizontal.divider {
+    margin: 3em 0em;
+}
+
+.quote.stripe.segment {
+    padding: 0em;
+}
+
+.quote.stripe.segment .grid .column {
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.footer.segment {
+    padding: 5em 0em;
+}
+
+.secondary.pointing.menu .toc.item {
+    display: none;
+}
+
+@media only screen and (max-width: 700px) {
+    .ui.fixed.menu {
+        display: none !important;
+    }
+
+    .secondary.pointing.menu .item,
+    .secondary.pointing.menu .menu {
+        display: none;
+    }
+
+    .secondary.pointing.menu .toc.item {
+        display: block;
+    }
+
+    .masthead.segment {
+        min-height: 350px;
+    }
+
+    .masthead h1.ui.header {
+        font-size: 2em;
+        margin-top: 1.5em;
+    }
+
+    .masthead h2 {
+        margin-top: 0.5em;
+        font-size: 1.5em;
+    }
+}
+
+/* My CSS */
+.content {
+    position: absolute;
+    top: 60px;
+    left: 10%;
+    right: 10%;
+    z-index: 10;
+}
+
+.content.ex {
+    top: 50px;
+}
+
+.bg-white {
+    background: white;
+    color: black;
+    padding: 10px 15px !important;
+}
+
+.bg-black {
+    background: black !important;
+    color: white !important;
+}
+
+.bg-black .item {
+    color: white !important;
+}
+
+.ui.secondary.inverted.menu .link.item,
+.ui.secondary.inverted.menu a.item {
+  color: rgb(2, 2, 2) !important;
+}
+
+.ui.secondary.inverted.menu .link.item:hover,
+.ui.secondary.inverted.menu a.item:hover {
+  background: rgba(0, 0, 0, 0.7) !important;
+}
+
+.ui.secondary.inverted.pointing.menu .item {
+  color: rgb(2, 2, 2) !important;
+}
+
+.ui.secondary.inverted.pointing.menu {
+    border-color: white !important;
+}
+
+.d-inline-block {
+    display: inline-block !important;
+}
+
+.color-black {
+    color: black !important;
+}
+
+.list {
+    display: block;
+    margin: 20px 0;
+}
+
+.ui.title {
+    padding: 1em !important;
+}
+
+.icon-menu {
+    width: 10rem;
+    margin-top: 20px;
+}
+.text-left {
+    text-align: left !important;
+}
+
+.kartu {
+    min-height: 350px;
+    padding: 10px 20px;
+    border: 1px solid rgb(0, 0, 0, .5);
+    border-radius: 15px;
+}
+
+.mt-3 {
+    margin-top: 3rem !important;
+}
+
+.mb-3 {
+    margin-bottom: 3rem !important;
+}
+
+.mb-4 {
+    margin-bottom: 4rem !important;
+}
+
+.pb-3 {
+    padding-bottom: 3rem !important;
+}
+
+.description p {
+    font-size: 20px;
+    padding: 20px;
+}
+
+/* asside 1 */
+.asside-1 {
+    padding: 100px 0;
+    background-color: #0f9aee;
+}
+
+.asside-1 .kartu {
+    min-height: 400px !important;
+}
+
+/* asside 2 */
+.asside-2 {
+    /* background: url('../../files/app/bg-1.JPG'); */
+    padding: 100px 0;
+    background-size: cover;
+    position: relative;
+}
+
+.asside-block-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(46, 46, 46, 0.5);
+    z-index: 2;
+}
+
+/* Jasa Card */
+.Jasa {
+    display: grid;
+    box-sizing: border-box;
+    width: 350px;
+    margin: 15px auto;
+    background: rgb(255, 255, 255);
+    padding: 20px 15px;
+    text-align: center;
+    border-radius: 15px;
+    min-height: 450px;
+
+    -webkit-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.75);
+}
+
+
+.Jasa:hover{
+    transform: translate(0px, -20px) !important;
+}
+
+.Jasa .head {
+    padding-bottom: 10px;
+}
+
+.Jasa p {
+    font-size: 16px;
+}
+
+.Jasa img {
+    padding-bottom: 20px;
+}
+
+.line-through {
+    text-decoration: line-through !important;
+}
+
+.ui.green.basic.button.hover:hover {
+    background: #21BA45 !important;
+    color: white !important;
+}
+
+.Jasa.hover.green:hover {
+    -webkit-box-shadow: 0px 0px 25px 0px rgba(33, 186, 69, 0.75);
+    -moz-box-shadow: 0px 0px 25px 0px rgba(33, 186, 69, 0.75);
+    box-shadow: 0px 0px 25px 0px rgba(33, 186, 69, 0.75);
+}
+
+.ui.blue.basic.button.hover:hover {
+    background: #2185D0 !important;
+    color: white !important;
+}
+
+.Jasa.hover.blue:hover {
+    -webkit-box-shadow: 0px 0px 25px 0px rgba(33, 133, 208, 0.75);
+    -moz-box-shadow: 0px 0px 25px 0px rgba(33, 133, 208, 0.75);
+    box-shadow: 0px 0px 25px 0px rgba(33, 133, 208, 0.75);
+}
+
+.ui.yellow.basic.button.hover:hover {
+    background: #FBBD08 !important;
+    color: white !important;
+}
+
+.Jasa.hover.yellow:hover {
+    -webkit-box-shadow: 0px 0px 25px 0px rgba(251, 189, 8, 0.75);
+    -moz-box-shadow: 0px 0px 25px 0px rgba(251, 189, 8, 0.75);
+    box-shadow: 0px 0px 25px 0px rgba(251, 189, 8, 0.75);
+}
+
+
+@media (max-width: 425px) {
+    
+}
+
+/* asside 3 */
+.asside-3 {
+    background: rgb(204, 204, 204) !important;
+}
+
+/* asside 4 */
+.asside-4 {
+
+}
+
+.clear-both {
+    clear: both;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.box {
+    position: relative !important;
+}
+
+.box .content {
+    position: relative !important;
+    color: white;
+    padding: 20px 15px;
+    -webkit-box-reflect: below 15px linear-gradient(transparent, transparent, rgba(0,0,0, .2));
+}
+
+.box .content:hover {
+    color: black !important;
+    transition: .5s;
+}
+
+
+.box .content:before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 100%;
+    height: 100%;
+    border: 4px solid #fff;
+    background: #000;
+    /* filter: url(#wavy); */
+    z-index: -2;
+}
+
+.box .content:after {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 50%;
+    height: 100%;
+    border: 4px solid #fff;
+    border-right: none;
+    background: rgba(255, 255, 255, .1);
+    /* filter: url(#wavy); */
+    z-index: -2;
+}
+
+.box .content:hover:before {
+    background: #fff;
+    transition: .5s;
+}
+
+
+
+/* Testi */
+.testi {
+    display: grid;
+    box-sizing: border-box;
+    width: 350px;
+    margin: 35px auto;
+}
+
+.testi .cards {
+    position: relative;
+    /* width: 350px; */
+    margin: 0 auto;
+    background: rgb(75, 153, 255);
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, .5);
+    /* overflow: hidden; */
+    min-height: 400px;
+}
+
+.testi .cards .image {
+    position: absolute;
+    top: -50%;
+    left: 0;
+    transform: translate(45%, 60%);
+    width: 150px;
+    /* background: rgb(71, 71, 71); */
+    border-radius: 50%;
+}
+
+.testi .cards .image img {
+    width: 100% !important;
+}
+
+.testi .cards .konten {
+    position: relative;
+    padding-top: 50px;
+    z-index: 2;
+}
+
+.testi .cards .konten p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff
+}
+
+.inverted {
+    background: white !important;
+    color: black !important;
+}
